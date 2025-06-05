@@ -21,3 +21,35 @@ An interactive Java desktop application designed to help users study more effici
 - OpenAI API (GPT-3.5)
 - Object-Oriented Programming Principles
 - Data Structures: ArrayList
+
+  How to Run
+
+### 1. Clone this repo
+
+git clone https://github.com/MadinaTojikarimova/Learnify.git
+
+### 2. Run the App
+
+In an IDE (like IntelliJ or Eclipse)  
+- Open the project  
+- Run FlashcardAppGUI.java  
+
+Or using Terminal  
+- Compile:
+
+javac -d bin src/*.java
+
+- Run:
+
+java -cp bin FlashcardAppGUI
+
+---
+
+## How to Use the AI Feature
+
+1. Get your API key from https://platform.openai.com/account/api-keys  
+2. In FlashcardAppGUI.java, find this line:  
+`java
+String apiKey = "sk-...";
+
+3. Replace it with your actual API key.
